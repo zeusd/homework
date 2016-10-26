@@ -5,7 +5,7 @@ using namespace std;
 
 //Function to return the y value of sin(x)
 double y(int x){
-	return 10*log(x)+200;			//Change sin(x) to log(x) to get logarithmic curve. Multiply by 10 to make it taller, add 200 so it starts below the 0 axis of the screen
+	return 10*log(x)+200;				//Change sin(x) to log(x) to get logarithmic curve. Multiply by 10 to make it taller, add 200 so it starts below the 0 axis of the screen
 }
 
 int main ()
