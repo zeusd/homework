@@ -14,7 +14,7 @@ int main ()
 
 	//Loop to draw our sin
 	for (x=1; x<=100; x++){
-		drawPixel(x*10, y(x));					// !!Change x=0 to x=1 for logarithmic curve!! Multiply by 10 to make it wider
+		drawPixel(x*10, y(x));			// !!Change x=0 to x=1 for logarithmic curve!! Multiply by 10 to make it wider
 
 		drawLine(x*10, y(x), (x+1)*10, y(x+1))	//Optimisation to draw line between each point and the next one
 	}
