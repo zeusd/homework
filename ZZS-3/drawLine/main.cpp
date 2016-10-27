@@ -12,7 +12,7 @@ double drawLineZeus(double x0, double y0, double x1, double y1){
 	xmod=abs(y0-y1)/abs(x0-x1)/100;
 	ymod=abs(x0-x1)/abs(y0-y1)/100;
 
-	//Length of the line by pythagorian theorem for the difference between the begining and end coordinates
+	//Length of the line by Pythagorian theorem for the difference between the begining and end coordinates
 	len=sqrt(abs(x0-x1)*abs(y0-y1));
 
 	//Pixel drawer
